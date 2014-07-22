@@ -22,8 +22,8 @@ For a list of public/private API methods, see
 Attribution
 -----------
 
-This code is licensed under the GPLv3 license. It should be available in
-`LICENSE`. If not, see [here][gnugpl].
+This code is licensed under LGPLv3. It should be available in
+`LICENSE`. If not, see [here][license].
 
 Examples are licensed under the Simplified BSD license. See
 `examples/LICENSE`.
@@ -33,8 +33,8 @@ and ScriptProdigy's [Cryptsy Python API][cryptsypyapi] were used as
 examples.
 
 
-[gnugpl]: https://www.gnu.org/licenses/gpl-3.0.txt
+[krakenapidoc]: https://www.kraken.com/help/api
+[license]: https://www.gnu.org/licenses/lgpl-3.0.txt
 [krakenphpapi]: https://github.com/payward/kraken-api-client
 [btceapi]: https://github.com/alanmcintyre/btce-api
 [cryptsypyapi]: https://github.com/ScriptProdigy/CryptsyPythonAPI
-[krakenapidoc]: https://www.kraken.com/help/api
