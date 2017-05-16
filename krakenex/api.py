@@ -59,9 +59,9 @@ class API(object):
         path -- path to file (string, no default)
         
         """
-        f = open(path, "r")
-        self.key = f.readline().strip()
-        self.secret = f.readline().strip()
+        with open(path, "r") as f:
+            self.key = f.readline().strip()
+            self.secret = f.readline().strip()
 
 
     def _query(self, urlpath, req = {}, conn = None, headers = {}):
